@@ -1,37 +1,4 @@
-function sleep(n) {
-    var promise = new Promise((resolve, reject) => {
-        setTimeout(_ => {
-            resolve(56);
-        }, n);
-    });
-
-    return promise;
-}
-
-async function looper() {
-    var sum = 0;
-    for (var i = 0; i <5; i++) {
-        console.log(i);
-        sum+=i;
-        await sleep(300);
-    }
-    return sum;
-}
-
-async function shiviMain() {
-    console.log('hello world');
-    // var sum = await looper();
-    // console.log(`The sum is ${sum}`);
-    var arr2 = [4, 5, 6, ...(false ? [7] : [])];
-    var arr3 = [4, 5, 6];
-    console.log(arr2);
-    console.log(arr3);
-}
-
 window.onload = function() {
-    // shiviMain();
-    // return;
-
     var canvas;
     var ctx;
 
