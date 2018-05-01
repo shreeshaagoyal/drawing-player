@@ -1,0 +1,49 @@
+#body {
+    background-color: #f7f7f7;
+}
+
+#mainBody {
+    max-width: 502px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading-1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Condensed";
+    padding-top: 10px;
+}
+
+#myCanvas {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+#playButton {
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Condensed";
+}
+
+#clearButton {
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Condensed";
+}
+
+#printButton {
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto Condensed";
+}
